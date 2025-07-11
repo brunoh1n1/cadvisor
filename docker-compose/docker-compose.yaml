@@ -20,4 +20,4 @@ services:
     ports:
       - "9090:9090"
     volumes:
-      - ./cadvisor/docker-compose/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
